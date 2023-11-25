@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, sans-serif; 
+    height: 100%;
+     background:linear-gradient(50deg, #00030e 80%, rgb(121, 121, 121) 20%) 
+}
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    width: calc(100%);
+}
+.kayan
+{
+    background-color: #000000;
+    color: #d4d4d4;border: 
+    solid 3px #16a085;
+    line-height: 20px;
+}
+.kayan a
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.Logo img 
+{
+    max-width: 100px;
+    height: auto;
+    cursor:pointer;
+}
+nav ul 
+{
+    list-style: none;
+    display: flex;
+}
+nav li 
+{
+    margin-right: 90px;
+}
+nav a 
+{
+    text-decoration: none;
+    color: #fff;    
+    font-weight: bold;
+}
+nav a:hover
+{
+    color: gold;
+}
+.login-sign
+{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 29px;
+}
+.login 
+{
+    margin-right: 32px;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 30px;
+}
+.login:hover
+{
+    background-color: aquamarine;
+    transition: 0.5s all;
+}
+.sign 
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+.sign:hover
+{
+    color: aquamarine;
+    transition: 0.5s all;
+}
+
+
+.links ion-icon
+{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 10px;
+}
+.links ion-icon:hover
+{
+    color: rgb(1, 175, 255);
+    transition:  1s; 
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Logo {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.back-image img
+{
+    margin: 25px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 30px;
+}
+.txt-num
+{
+    margin-left: 40%;
+   margin-top: -590px;
+   
+}
+.txt-num input
+{
+    height: 35px;
+    width: 320px;
+    font-weight: bold;
+    margin: 20px;
+}
+.txt-num button
+{
+    height: 35px;
+    width: 120px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(243, 131, 3);
+    font-size: 15px;
+    font-weight: bold;
+}
+.txt-num h3
+{
+    color: rgb(230, 230, 230);
+}
+.txt-num textarea
+{
+    width: 361px;
+    height: 148px;
+}
